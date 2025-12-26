@@ -26,38 +26,9 @@
     href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet">
 </head>
-<!-- Admin Login Modal -->
-<div id="admin-login-modal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeLoginModal()">&times;</span>
-    <h2>Admin Login</h2>
-    <input type="text" id="admin-username" placeholder="Username">
-    <input type="password" id="admin-password" placeholder="Password">
-    <button onclick="adminLogin()">Login</button>
-  </div>
-</div>
 
-<!-- Add Listing Modal -->
-<div id="add-listing-modal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeAddListingModal()">&times;</span>
-    <h2>Add New Property</h2>
-    <input type="text" id="prop-title" placeholder="Title">
-    <input type="text" id="prop-location" placeholder="Location">
-    <input type="number" id="prop-price" placeholder="Price">
-    <textarea id="prop-desc" placeholder="Description"></textarea>
-    <select id="prop-status">
-      <option value="new">New</option>
-      <option value="sold-out">Sold Out</option>
-    </select>
-    <input type="file" id="prop-image">
-    <button onclick="addProperty()">Add Property</button>
-  </div>
-</div>
 
-<!-- Update Add Listing Button -->
-<button class="header-top-btn" onclick="openAddListingModal()" style="display:none;">Add Listing</button>
-<button onclick="openLoginModal()" id="admin-login-btn">Admin Login</button>
+
 
 <body>
 
